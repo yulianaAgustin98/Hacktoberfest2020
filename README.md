@@ -32,7 +32,7 @@ Replace `<YOUR-USERNAME>` with your GitHub username in this guide.
 
 ## 1. Add your profile picture to the folder
 
-Add a picture picture of your choice in `static/images/`. Accepted files are **png** and **jpg**, should be squared and minimum size 544x544 pixels. Ex.
+Add a profile picture of your choice in `static/images/`. Accepted files are **png** and **jpg**, should be squared and minimum size 544x544 pixels. Ex.
 
 ```
 static/images/<YOUR-USERNAME>.png
@@ -52,9 +52,11 @@ Copy the next template into your file, delete the boilerplate data and fill the 
 
 ```
 ---
-name: YOURNAME
+name: YOUR_NAME
 institution: INSTITUTION_NAME
-github:USERNAME
+image: PROFILE_PICTURE_FILENAME
+quote: YOUR_QUOTE
+github: USERNAME
 ---
 ```
 
